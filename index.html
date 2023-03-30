@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Dictionary</title>
+  </head>
+  <body>
+    <script type="text/javascript" src="script.js"></script>
+    <h1 id="pageHead">Dictionary</h1>
+    <fieldset class="myFields">
+      <legend><strong>Enter a word</strong></legend>
+      <input class="inputBox" id="enteredWord" type="text" placeholder="Type your word...">
+      <button type="submit" onclick="addWords()">Add word</button>
+    </fieldset>
+    <fieldset class="myFields">
+      <legend><strong>Search a word</strong></legend>
+      <input class="inputBox" type="text" id="searchedWord" placeholder="Search...">
+      <button type="search" onclick="searchWord()">Search</button>
+    </fieldset>
+    <fieldset id="listPlace">
+      <ul id="wordsList">
+      </ul>
+    </fieldset>
+  </body>
+</html>

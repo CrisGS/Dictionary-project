@@ -1,0 +1,54 @@
+#pageHead {
+  text-align: center;
+  margin-top: 10%;
+  font-family: cursive;
+}
+
+body {
+  display: inline-block;
+  margin-left: 32.2%;
+  background-image: url("https://www.pijf.com.au/wp-content/uploads/2020/09/magnifying-glass-newspaper_shutterstock_3383425.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.myFields {
+  display: inline-block;
+  border-radius: 15px;
+  border-color: black;
+  line-height: 35px;
+}
+
+.inputBox {
+  border-color: black;
+  border-radius: 5px;
+  font-family: cursive;
+}
+
+button {
+  border-radius: 5px;
+  border-color: black;
+  font-family: cursive;
+}
+
+#wordsList {
+  display: block;
+  margin-left: 35%;
+  color: black;
+  font-size: x-large;
+  font-family: cursive;
+}
+
+#listPlace {
+  background-image: url("https://t3.ftcdn.net/jpg/02/48/92/62/360_F_248926266_q8BNpak7BaIbg49Kvyjdndh4yOgd0rOg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-color: black;
+  border-radius: 15px;
+  height: 450px;
+}
+
+legend {
+  font-size: large;
+  font-family: cursive;
+}
